@@ -1,0 +1,295 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul 26 15:39:11 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := z:/C/Coding language
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+NVM_HOME = C:\Users\ryanp\AppData\Roaming\nvm
+# environment
+WALLABY_PRODUCTION = true
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\ryanp\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\ryanp\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Program Files\PHP\v7.4;C:\Program Files\Microsoft\jdk-17.0.0.35-hotspot\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\ryanp\depot_tools;C:\Users\ryanp\emsdk;C:\Users\ryanp\emsdk\node\14.15.5_64bit\bin;C:\Users\ryanp\emsdk\upstream\emscripten;C:\Users\ryanp\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ryanp\AppData\Local\Programs\Python\Python39\;C:\Users\ryanp\AppData\Local\Microsoft\WindowsApps;C:\Users\ryanp\AppData\Local\GitHubDesktop\bin;C:\Program Files\Ja;C:\Program Files\CMake\bin;C:\Program Files (x86)\cloudflared\.;C:\ProgramData\chocolatey\bin;C:\Program Files\LLVM\bin;C:\Program Files\OpenJDK\openjdk-8u312-b07\bin;C:\Program Files\dotnet\;C:\Users\ryanp\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\8bitdo;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ryanp\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\ryanp\anaconda3;C:\Users\ryanp\anaconda3\Library\mingw-w64\bin;C:\Users\ryanp\anaconda3\Library\usr\bin;C:\Users\ryanp\anaconda3\Library\bin;C:\Users\ryanp\anaconda3\Scripts;C:\Users\ryanp\.cargo\bin;C:\Users\ryanp\AppData\Local\Android\sdk\emulator;C:\Users\ryanp\AppData\Local\Android\Sdk\platform-tools;C:\Users\ryanp\emsdk;C:\Users\ryanp\emsdk\node\14.15.5_64bit\bin;C:\Users\ryanp\emsdk\upstream\emscripten;C:\Users\ryanp\AppData\Local\Microsoft\WindowsApps;C:\Users\ryanp\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-15.0.2\bin;C:\mingw64\bin;C:\Users\ryanp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\platform-tools;C:\Program Files\scrcpy-win64-v1.19;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;C:\Users\ryanp\AppData\Local\atom\bin;C:\Users\ryanp\AppData\Roaming\npm;C:\Users\ryanp\AppData\Local\Android\Sdk\tools;C:\Program Files\Sublime Text 3;C:\lua;C:\Users\ryanp\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\GTK3VICE-3.6.1-win64\bin;C:\DOSBox-X;C:\Users\ryanp\AppData\Roaming\Python\Python310\Scripts;C:\flutter\bin;C:\Users\ryanp\AppData\Local\JetBrains\Toolbox\scripts
+# environment
+ONLINESERVICES = Online Services
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132866769273771324
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+ONEDRIVE = C:\Users\ryanp\OneDrive
+# environment
+USERPROFILE = C:\Users\ryanp
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = C:\Users\ryanp\AppData\Local\Android\Sdk
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# environment
+OCULUSBASE = C:\Program Files\Oculus\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15620_KFLKCJYGLDMJIEOM
+# environment
+COMPUTERNAME = RYAN
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ryanp
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ryanp\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\RYAN
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = RYAN
+# environment
+MAKELEVEL := 0
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = C:\Program Files\OpenJDK\openjdk-8u312-b07
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\ryanp\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\5ec6578b17df9c632158c4017e065b60-1.69.2-main-sock
+# environment
+HOMEPATH = \Users\ryanp
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+REGIONCODE = NA
+# environment
+SYSTEMROOT = C:\windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+PLATFORMCODE = KV
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\ryanp\AppData\Roaming
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# environment
+TEMP = C:\Users\ryanp\AppData\Local\Temp
+# environment
+COMSPEC = C:\windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 7e05
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 15620
+# environment
+USERDOMAIN_ROAMINGPROFILE = RYAN
+# variable set hash-table stats:
+# Load=102/1024=10%, Rehash=0, Collisions=16/120=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key z:/C/Coding language, mtime 1658875150): 6 files, no impossibilities.
+
+# 6 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 13 / storage = 109 B / avg = 8 B
+# current buf: size = 8162 B / used = 109 B / count = 13 / avg = 8 B
+
+# strcache performance: lookups = 15 / hit rate = 13%
+# hash-table stats:
+# Load=13/8192=0%, Rehash=0, Collisions=1/15=7%
+# Finished Make data base on Tue Jul 26 15:39:11 2022
+
+ 

@@ -1,0 +1,5 @@
+make.exe: Entering directory 'z:/C/Coding language'
+make.exe: Leaving directory 'z:/C/Coding language'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+
