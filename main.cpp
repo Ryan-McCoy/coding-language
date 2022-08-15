@@ -1,6 +1,15 @@
 #include <iostream>
 #include <fstream>
 
-int main(int argc, char **argv) {
-    std::cout << "Coding language\n";
+using namespace std;
+
+int main(int argc, char **argv[]) {
+    cout << "Coding language\n";
+    char input[] = argv[1];
+    fstream infile(input);
+    string temptext;
+    string code;
+    while (getline(infile, temptext)){
+        code << temptext;
+    }
 }
