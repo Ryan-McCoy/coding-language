@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(int argc, char[] **argv) {
+int main(int argc, char **argv) {
     cout << "Coding language\n";
     string input = argv[1];
     fstream infile(input);
