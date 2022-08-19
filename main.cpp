@@ -12,6 +12,5 @@ int main(int argc, char **argv[]) {
     while (getline(infile, temptext)){
         code << temptext;
     }
-    delete temptext;
     
 }
