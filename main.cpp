@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char **argv) {
     cout << "Coding language\n";
-    string input = argv[1];
+    string input = argv;
     cout << input << endl;
 //     fstream infile(input);
 //     string temptext;
