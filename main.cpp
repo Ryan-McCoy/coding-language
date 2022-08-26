@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
     cout << "Coding language\n";
     
     std::string input(argv[1]);
-    
+    std::string frame;
     cout << input << endl;
     fstream inputfile(input);
     file << inputfile;
