@@ -25,6 +25,7 @@ int main(int argc, char **argv) {
     std::string frame;
     cout << input << endl;
     fstream inputfile(input);
+    string file;
     file << inputfile;
     inputfile.close();
     int len = file.length();
