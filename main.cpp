@@ -34,5 +34,6 @@ int main(int argc, char **argv) {
     char str[len + 1];
     strcpy(str, file.c_str());
     return split(str);
+      // boo
   }
 }
