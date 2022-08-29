@@ -26,7 +26,9 @@ int main(int argc, char **argv) {
     cout << input << endl;
     fstream inputfile(input);
     string file;
-    file << inputfile;
+    while (getline (inputfile, file)){
+        cout << file << endl;
+    }
     inputfile.close();
     int len = file.length();
     char str[len + 1];
